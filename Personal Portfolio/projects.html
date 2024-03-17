@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <style>
+        /* Your CSS styles here */
+        * {
+      margin: 0%;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ffb5b5;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: #ffcbcb;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+main hr{
+  border: 0;
+  background:#9c97f1 ;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+    nav ul li a {
+      text-decoration: none;
+      margin: 0 23px;
+      color: black;
+    }
+
+    nav ul li a:hover {
+
+      color: rgb(134, 134, 251);
+      font-size: 1.4rem;
+    }
+
+        .projects {
+            padding: 20px;
+        }
+
+        .project {
+            background-color: indigo;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .project h2 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            color: paleturquoise;
+        }
+
+        .project p {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+
+        .project-description {
+            padding: 20px;
+            background-color: indigo;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .project-description h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            color: palevioletred;
+        }
+
+        .project-description p {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .project-item {
+            width: 31%;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1200px) {
+            .project-item {
+                width: 48%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .project-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="left" style="color: indigo;">Manaswitha's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="projects">
+        <div class="project-list">
+            <div class="project-item">
+                <div class="project">
+                    <h2>Election Voting System</h2>
+                    <div class="project-description">
+                        <h3>Description</h3>
+                        <p>Developed a code for election voting system using C programming language to facilitate secure and efficient voting processes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project">
+                    <h2>Pay Roll Management System</h2>
+                    <div class="project-description">
+                        <h3>Description</h3>
+                        <p>Developed a payroll management system in C++ to automate payroll processes. It’s a software that gives companies by automatic carry out processes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project">
+                    <h2>Netfix HomePage</h2>
+                    <div class="project-description">
+                        <h3>Description</h3>
+                        <p>We developed netfix home page . We completed our frontend part and we are working on the backend. Soon we will complete our project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

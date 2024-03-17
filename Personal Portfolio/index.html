@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <title>manaswitha's portfolio</title>
+  <style>
+    * {
+      margin: 0%;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ffb5b5;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: #ffcbcb;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+main hr{
+  border: 0;
+  background:#9c97f1 ;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+    nav ul li a {
+      text-decoration: none;
+      margin: 0 23px;
+      color: black;
+    }
+
+    nav ul li a:hover {
+
+      color: rgb(134, 134, 251);
+      font-size: 1.4rem;
+    }
+
+    .left {
+      font-size: 2rem;
+      color: indigo;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 90px;
+    }
+
+    .firstsection>div {
+      width: 30%;
+    }
+
+    .leftsection {
+      font-size: 2rem;
+      margin: 70px;
+      color: black;
+
+    }
+
+    .rightsection img {
+      width: 80%;
+      margin: 50px;
+    }
+
+    .purple {
+      color: indigo;
+    }
+
+    #element {
+      color: indigo;
+    }
+    .secondsection
+    {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+    .secondsection .box
+    {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+
+    }
+    .secondsection .vertical
+    {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+    }
+    .secondsection h1{
+      font-size: 1.5rem;
+
+    }
+    .grey
+    {
+      color: gray;
+    }
+    .social_icons{
+    display: flex;
+    margin-top: 5em;
+    gap: 30px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.icon:hover{
+    color: var(--first-color);
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Manaswitha's portfolio
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">Hi,My name is <span class="purple">manaswitha</span>
+        <div>and i am UG student who is intrested in </div>
+        <span id="element"></span>
+        <div class="social_icons">
+          <div class="icon"><a href=https://www.linkedin.com/in/manaswitha-nadipalli-7b0b36258/><i class="uil uil-linkedin-alt"></i></div></a>
+          <div class="icon"><a href=https://github.com/Manaswitha18><i class="uil uil-github-alt"></i></div></a>
+          </div>
+      </div>
+      <div class="rightsection">
+        <img src="coding pnd-fotor-bg-remover-20240317214544.png"  >
+      </div>
+    </section>
+    <hr>
+    
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>frontend</i> ', ' backend ', 'web designing'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
